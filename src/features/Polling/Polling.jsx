@@ -26,10 +26,10 @@ import { useDishes } from "../../context/DishesContext";
         }
     
         console.log("rankings: "+ JSON.stringify(rankings));
-        const userSelections = new Map([]);
-        userSelections.set(username,rankings);
+        const userSelections = new Map();
+        userSelections.set(username,JSON.stringify([...rankings]));
 
-        localStorage.setItem('userSelections', JSON.stringify(userSelections));
+        localStorage.setItem('userSelections', JSON.stringify([...userSelections]));
 
         let dishPointsData = localStorage.getItem('dishPoints');
         console.log("old dishPoints :"+JSON.stringify(dishPointsData));
@@ -61,7 +61,14 @@ import { useDishes } from "../../context/DishesContext";
           //console.log(data);
           setDishes(data);
         })
-    });
+        if(localStorage.getItem('userSelections')){
+          console.log(localStorage.getItem('userSelections'));
+          let previousSelections=new Map(JSON.parse(localStorage.getItem('userSelections')));
+          if(previousSelections.has(username)){
+            setRankings(new Map(JSON.parse(previousSelections.get(username))));
+          }
+        }
+    },[username]);
 
     const handleOnChange =(e) =>{
       console.log(e.target.value);
