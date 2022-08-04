@@ -3,7 +3,7 @@ import './login.css'
 import { useDishes } from "../../context/DishesContext";
 import {useNavigate} from 'react-router-dom'
 
-function Login() { 
+function LoginComponent() { 
 
     const[username,setUser] = useState(""); 
     const[password,setPwd] = useState(""); 
@@ -69,4 +69,4 @@ function Login() {
         )
     }
 
- export default Login;
+ export default LoginComponent;

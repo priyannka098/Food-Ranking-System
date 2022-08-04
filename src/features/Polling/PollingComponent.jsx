@@ -4,7 +4,7 @@ import ImageComponent from '../Image/ImageComponent'
 import './Polling.css'
 import { useDishes } from "../../context/DishesContext";
 
- function Polling() { 
+ function PollingComponent() { 
     const[dishes,setDishes] = useState([]); 
     //const[userSelections,setUserSelections] = useState(new Map([])); 
     const[rankings,setRankings] = useState(new Map([])); 
@@ -57,6 +57,9 @@ import { useDishes } from "../../context/DishesContext";
       }
       
     useEffect(() => {
+        if(username===""){
+          navigate('/');
+        }
         fetchDishes().then((data)=>{
           //console.log(data);
           setDishes(data);
@@ -146,5 +149,5 @@ import { useDishes } from "../../context/DishesContext";
     );     
     }
  
- export default Polling;
+ export default PollingComponent;
  

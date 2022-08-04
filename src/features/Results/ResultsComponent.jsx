@@ -24,6 +24,9 @@ function ResultsComponent() {
       }
       
     useEffect(() => {
+      if(username===""){
+        navigate('/');
+      }
         const dishPointsData = localStorage.getItem('dishPoints');
         let dishPoints=new Map(JSON.parse(dishPointsData));
        // console.log(dishPoints);
