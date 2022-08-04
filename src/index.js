@@ -3,11 +3,14 @@ import ReactDOM from 'react-dom/client';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
+import {DishesContextProvider} from './context/DishesContext'
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
+   <DishesContextProvider>
     <App />
+    </DishesContextProvider>
   </React.StrictMode>
 );
 
