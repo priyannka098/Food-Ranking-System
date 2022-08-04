@@ -4,7 +4,7 @@ const DishesContext = createContext({});
 
 export const DishesContextProvider = ({ children }) => {
   
-    const [username, setUsername] = useState("testuser");
+    const [username, setUsername] = useState("");
 
 //   useEffect(() => {
 //     const fetchAPI = async () => {

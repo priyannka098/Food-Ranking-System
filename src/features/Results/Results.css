@@ -1,0 +1,29 @@
+.rank1-row{
+    background-color: rgb(86, 189, 86);
+}
+
+.rank2-row{
+    background-color: rgb(236, 236, 106);
+}
+.rank3-row{
+    background-color: rgb(218, 83, 83);
+}
+
+.row-height {
+    height: 60px;
+}
+
+.results-container{
+    border: 1px solid rgb(235, 235, 221);
+    margin-top: 20px;
+    height:80%;
+    overflow-y: scroll;
+    width:500px;
+}
+
+.result-details {
+    display: flex;
+    flex-direction: column;
+    margin-left: 5px;
+    width: 100%;
+}
