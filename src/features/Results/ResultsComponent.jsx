@@ -49,7 +49,7 @@ function ResultsComponent() {
     
     return (
       <div className="parent-box">
-        <h2>Results</h2>
+        <h1 className="title">Results</h1>
         <div className="results-container">
            {dishes.map((dish, index) => {
               return <div className={'result-row row-height '+ (userSelections.has(dish[0])? 'row-highlight':'')} key={index}>

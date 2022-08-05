@@ -25,9 +25,12 @@
     height: 100px;
     /* padding:10px 10px 10px 0px; */
     margin: 5px;;
-    border: 1px solid lightgray;
+    
 }
 
+.title {
+    color: rgb(0, 0, 0);
+}
 .results-container{
     border: 1px solid rgb(235, 235, 221);
     margin-top: 20px;

@@ -10,8 +10,7 @@ import { useDishes } from "../../context/DishesContext";
     const[rankings,setRankings] = useState(new Map([])); 
     const navigate=useNavigate();
     const { username } = useDishes();
-
-    
+   
 
     const fetchDishes = () => {
         return fetch(
@@ -113,7 +112,7 @@ import { useDishes } from "../../context/DishesContext";
 
     return (
       <div className="parent-box">
-        <h2>Rate Your Favourite Dishes</h2>
+        <h1>Rate Your Favourite Dishes</h1>
         <div className="container">
            {dishes.map((dish, index) => {
               return <div className="dish-row" key={index}>
