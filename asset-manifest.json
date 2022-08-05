@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/Food-Ranking-System/static/css/main.d38aa813.css",
+    "main.js": "/Food-Ranking-System/static/js/main.6f05b91d.js",
+    "static/js/787.1e9393ba.chunk.js": "/Food-Ranking-System/static/js/787.1e9393ba.chunk.js",
+    "static/media/food-images.jpg": "/Food-Ranking-System/static/media/food-images.df1324f0020943b65aa9.jpg",
+    "index.html": "/Food-Ranking-System/index.html",
+    "main.d38aa813.css.map": "/Food-Ranking-System/static/css/main.d38aa813.css.map",
+    "main.6f05b91d.js.map": "/Food-Ranking-System/static/js/main.6f05b91d.js.map",
+    "787.1e9393ba.chunk.js.map": "/Food-Ranking-System/static/js/787.1e9393ba.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.d38aa813.css",
+    "static/js/main.6f05b91d.js"
+  ]
+}
