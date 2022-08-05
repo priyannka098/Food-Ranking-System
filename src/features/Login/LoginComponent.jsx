@@ -48,7 +48,7 @@ function LoginComponent() {
     }
      
         return(
-        <div className="container">
+        <div className="login-container">
             <h1 className="heading"> Login</h1>
             <div className={`errorBanner ${isError?'show':'hidden'}`}><p>Invalid Username or Password</p></div>
             <div className="form-group">
