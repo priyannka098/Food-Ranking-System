@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import './login.css'
 import { useDishes } from "../../context/DishesContext";
 import {useNavigate} from 'react-router-dom'
+import users from '../../users.json'
 
 function LoginComponent() { 
 
@@ -26,27 +27,23 @@ function LoginComponent() {
     }
 
     const doLogin=() => {
-        fetch(
-            `http://localhost:5300/userData`
-          ).then((res) => res.json())
-          .then((userDataResponse)=>{
-            console.log(userDataResponse);
-            userDataResponse.forEach((userData)=>{
-                if(userData.username===username){
-                    console.log("here1");
-                    if(userData.password===password){
-                        console.log(username);
-                        setUsername(username);
-                        return redirectToPolling();
-                    } else {
-                        console.log("here3");
-                        setIsError(true);
-                    }
-                } else{
-                    console.log("here4");
+        console.log(users);
+        users.loginDetails.forEach((userData)=>{
+            if(userData.username===username){
+                console.log("here1");
+                if(userData.password===password){
+                    console.log(username);
+                    setUsername(username);
+                    return redirectToPolling();
+                } else {
+                    console.log("here3");
+                    setIsError(true);
                 }
-            });
-          })
+            } else{
+                console.log("here4");
+            }
+        });
+       
             
     }
      

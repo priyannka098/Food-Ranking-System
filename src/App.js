@@ -1,4 +1,4 @@
-import {Routes,BrowserRouter,Route} from 'react-router-dom'
+import {Routes,HashRouter,Route} from 'react-router-dom'
 import LoginComponent from './features/Login/LoginComponent'
 import PollingComponent from './features/Polling/PollingComponent'
 import ResultComponent from './features/Results/ResultsComponent'
@@ -7,13 +7,13 @@ import './App.css';  /* to include css */
 const App = () => {
   return(
     <div className="center-children">
-      <BrowserRouter>
+      <HashRouter>
       <Routes>
         <Route path="/" element={<LoginComponent />} />
         <Route path="/polling" element={<PollingComponent />} />
         <Route path="/results" element={<ResultComponent />} />
       </Routes>
-      </BrowserRouter>
+      </HashRouter>
     </div>
   );
 }
