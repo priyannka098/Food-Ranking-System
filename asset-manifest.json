@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/Food-Ranking-System/static/css/main.8e3a8a1a.css",
+    "main.css": "/Food-Ranking-System/static/css/main.eace77b3.css",
     "main.js": "/Food-Ranking-System/static/js/main.2a0e2c75.js",
     "static/js/787.cfd097ff.chunk.js": "/Food-Ranking-System/static/js/787.cfd097ff.chunk.js",
     "static/media/6242651.jpg": "/Food-Ranking-System/static/media/6242651.4492fc7af67508be45a9.jpg",
     "index.html": "/Food-Ranking-System/index.html",
-    "main.8e3a8a1a.css.map": "/Food-Ranking-System/static/css/main.8e3a8a1a.css.map",
+    "main.eace77b3.css.map": "/Food-Ranking-System/static/css/main.eace77b3.css.map",
     "main.2a0e2c75.js.map": "/Food-Ranking-System/static/js/main.2a0e2c75.js.map",
     "787.cfd097ff.chunk.js.map": "/Food-Ranking-System/static/js/787.cfd097ff.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.8e3a8a1a.css",
+    "static/css/main.eace77b3.css",
     "static/js/main.2a0e2c75.js"
   ]
 }
