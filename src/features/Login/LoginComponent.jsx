@@ -43,13 +43,11 @@ function LoginComponent() {
                 console.log("here4");
             }
         });
-       
-            
+
     }
-     
         return(
         <div className="login-container">
-            <h1 className="heading"> Login</h1>
+            <div className="heading"> Login</div>
             <div className={`errorBanner ${isError?'show':'hidden'}`}><p>Invalid Username or Password</p></div>
             <div className="form-group">
                 <input type="text" name="username" className="form-control" placeholder="Username" required onChange={handleChange}></input>

@@ -1,5 +1,5 @@
-import React from 'react';
-import ReactDOM from 'react-dom/client';
+import React from 'react';   //packages
+import ReactDOM from 'react-dom/client';     //its react library which bring virtual Dom
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
@@ -8,7 +8,7 @@ import {DishesContextProvider} from './context/DishesContext'
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-   <DishesContextProvider>
+   <DishesContextProvider>    
     <App />
     </DishesContextProvider>
   </React.StrictMode>

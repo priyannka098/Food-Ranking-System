@@ -109,7 +109,6 @@ import { useDishes } from "../../context/DishesContext";
     }
     
 
-
     return (
       <div className="parent-box">
         <h1>Rate Your Favourite Dishes</h1>

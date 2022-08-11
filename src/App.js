@@ -1,4 +1,4 @@
-import {Routes,HashRouter,Route} from 'react-router-dom'
+ import {Routes,HashRouter,Route} from 'react-router-dom'
 import LoginComponent from './features/Login/LoginComponent'
 import PollingComponent from './features/Polling/PollingComponent'
 import ResultComponent from './features/Results/ResultsComponent'
@@ -18,4 +18,4 @@ const App = () => {
   );
 }
 
-export default App;
+export default App;  //export to use in other files
