@@ -35,20 +35,19 @@ function LoginComponent() {
                     console.log(username);
                     setUsername(username);
                     return redirectToPolling();
-                } else {
-                    console.log("here3");
-                    setIsError(true);
                 }
-            } else{
-                console.log("here4");
             }
         });
+        setIsError(true);
+    }
 
+    const getErrorBannerClass = () => {
+        return isError ?'show':'hidden';
     }
         return(
         <div className="login-container">
             <div className="heading"> Login</div>
-            <div className={`errorBanner ${isError?'show':'hidden'}`}><p>Invalid Username or Password</p></div>
+            <div className={'errorBanner '+getErrorBannerClass()}><p>Invalid Username or Password</p></div>
             <div className="form-group">
                 <input type="text" name="username" className="form-control" placeholder="Username" required onChange={handleChange}></input>
             </div>
