@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/Food-Ranking-System/static/css/main.eace77b3.css",
-    "main.js": "/Food-Ranking-System/static/js/main.2a0e2c75.js",
+    "main.css": "/Food-Ranking-System/static/css/main.7e9180fb.css",
+    "main.js": "/Food-Ranking-System/static/js/main.68b40a2c.js",
     "static/js/787.cfd097ff.chunk.js": "/Food-Ranking-System/static/js/787.cfd097ff.chunk.js",
     "static/media/6242651.jpg": "/Food-Ranking-System/static/media/6242651.4492fc7af67508be45a9.jpg",
     "index.html": "/Food-Ranking-System/index.html",
-    "main.eace77b3.css.map": "/Food-Ranking-System/static/css/main.eace77b3.css.map",
-    "main.2a0e2c75.js.map": "/Food-Ranking-System/static/js/main.2a0e2c75.js.map",
+    "main.7e9180fb.css.map": "/Food-Ranking-System/static/css/main.7e9180fb.css.map",
+    "main.68b40a2c.js.map": "/Food-Ranking-System/static/js/main.68b40a2c.js.map",
     "787.cfd097ff.chunk.js.map": "/Food-Ranking-System/static/js/787.cfd097ff.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.eace77b3.css",
-    "static/js/main.2a0e2c75.js"
+    "static/css/main.7e9180fb.css",
+    "static/js/main.68b40a2c.js"
   ]
 }
